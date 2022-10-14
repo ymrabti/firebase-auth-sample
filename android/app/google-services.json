@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601448458532",
+    "project_id": "mrabti",
+    "storage_bucket": "mrabti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601448458532:android:0af138425196098cb32bb1",
+        "android_client_info": {
+          "package_name": "com.ymrabtisamples.signinsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601448458532-mnpuj7uc14g9apldq74icfpfjuadbeos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDgLuvHuBIjgD9nQIRG754uWGMp-uAA5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601448458532-mnpuj7uc14g9apldq74icfpfjuadbeos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
