@@ -63,9 +63,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                     await uploadProfilePicture(user);
                                   },
                                   child: (user.photoURL == null)
-                                      ? pUploadingPhoto
+                                      ? (pUploadingPhoto
                                           ? const CustomCircular()
-                                          : const Icon(Icons.upload)
+                                          : const Icon(Icons.upload))
                                       : Image.network(user.photoURL!),
                                 ),
                               ),

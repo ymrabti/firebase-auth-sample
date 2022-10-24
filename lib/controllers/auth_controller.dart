@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:loginsignup/screens/home.dart';
 import 'package:loginsignup/screens/signup.dart';
+import 'package:loginsignup/screens/widgets.dart';
 import 'package:loginsignup/utils/console.dart';
 import 'package:loginsignup/utils/constants.dart';
 

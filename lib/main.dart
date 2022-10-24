@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:loginsignup/screens/signup.dart';
 import 'package:loginsignup/screens/widgets.dart';
 
 // 9K#2xwqtk0wG
@@ -17,7 +18,7 @@ void main() {
         future: futureFB(),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            return const FirebaseAppCheckExample();
+            return const SignUp();
           } else {
             return const CustomCircular();
           }
